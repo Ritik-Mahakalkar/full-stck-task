@@ -1,0 +1,161 @@
+
+.add_product{
+   border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    border-radius: 10px;
+}
+.productfild h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+.addproduct_itemfield img{
+    width: 120px;
+}
+.productfild .input_box{
+    position: relative;
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid #e4e4e4;
+    margin: 30px 0;
+}
+.input_box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 28px;
+}
+.input_box label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s ease;
+
+}
+.input_box input:focus~label,
+.input_box input:valid~label{
+  top:-5px;
+}
+.selection select{
+    position: relative;
+    width: 340px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #e4e4e4;
+    margin: 30px 0;
+}
+
+.add_btn{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20%;
+    background: black;
+    outline: none;
+    border-radius: 75px;
+    cursor: pointer;
+    font: 24px  bold;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin-top: 20px;
+}
+.add_btn:hover{
+    color: black;
+    background: aliceblue;
+}
+
+.addproduct_itemfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+   
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    
+}
+@media(max-width:1000px)
+{
+    .add_product{
+        margin-top:-600px;
+    }
+}
+
+.option span{
+font-weight: 700;
+cursor: pointer;
+}
+.forms img{
+    width: 140px;
+    border: 2px solid gray;
+    align-items: center;
+   
+}
+.remove{
+    border: 1px solid tomato;
+    border-radius: 20px;
+    color: navy;
+    font-size: 18px;
+    align-items: center;
+    width: 80px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.side-left{
+margin-left: 20%;
+}
+.side-right p{
+font-size: 14px;
+}
+.forms{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+    width: 140vh;
+}
+.side-left p{
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.detail{
+    color: navy;
+    font-size: 18px;
+    font-weight: 800;
+    
+}
+.forms p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
